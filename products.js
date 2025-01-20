@@ -128,6 +128,15 @@ document.addEventListener('DOMContentLoaded', function() {
                 productPrices.appendChild(rubIcon);
             }
 
+            const greyRectangle = document.createElement('div');
+            greyRectangle.classList.add('grey-rectangle');
+            productCard.appendChild(greyRectangle);
+
+            const detailsButton = document.createElement('button');
+            detailsButton.classList.add('details-button');
+            detailsButton.textContent = 'Подробнее';
+            greyRectangle.appendChild(detailsButton);
+
             productListContainer.appendChild(productCard);
         });
     } else {
