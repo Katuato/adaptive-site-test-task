@@ -1,0 +1,44 @@
+:root {
+  --main-font: 'Lato', sans-serif; 
+  --secondary-font: 'Inter', sans-serif; 
+  --thirdly-font: 'Korataki', sans-serif; 
+  --quaternary-font: 'Roboto', sans-serif; ;
+
+
+  /* --block-color */
+  --background-block-light-black-color: #231815;
+  --background-block-white-color: #fff;
+  --background-block-black-color: #000;
+  --background-block-dark-black-color: #0C0C0C;
+  /* --background-block-blue-color: #07f;
+  --background-block-dark-grey-color: #212121;
+  --background-block-light-grey-color: #f6f7f9; */
+
+  /* --border-color */
+  --border-color-grey: #F5F5F5;
+  --border-color-grey-dark: #212121;
+
+  /* --button-color */
+  --background-button-light-grey-color: #f6f7f9;
+  --background-button-dark-grey-color: #212121;
+  --background-button-blue-color: #07f;
+  --background-button-white-color: #fff;
+
+  /* --border-color */
+  --text-color-white: #fff;
+  --text-color-black: #231815;
+  --text-color-light-black: #231815;
+  --text-color-orange:#E45302;
+  --text-color-grey: #808080;
+  --text-color-light-grey: #F5F5F5;
+  /* --text-color-grey-2: #7c8a9a;
+  --text-color-grey-dark: #212121;
+  --text-color-blue: #07f;  */
+
+  /* animations */
+  --hover-background-block-dark-blue-color: #006be6;
+  --hover-background-block-grey-color: #f3f4f6;
+  --hover-border-blue-color: #0277ff;
+  --hover-border-white-color: #fff;
+  --hover-text-blue-color: #0277ff;
+}
