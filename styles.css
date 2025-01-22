@@ -420,6 +420,7 @@ footer{
 
 .contacts span{
     line-height: 16px;
+    white-space: nowrap;
 }
 
 .contacts span:first-of-type,
