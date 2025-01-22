@@ -3,17 +3,17 @@
 	font-family: 'Lato';
 	font-style: normal;
 	src: local('Lato'),
-		url('/fonts/Lato-Regular.ttf') format('ttf'),
-		url('/fonts/Lato-Regular.eot') format('eot'),
-		url('/fonts/LatoLatin-Regular.ttf') format('ttf'),
-		url('/fonts/LatoLatin-Regular.eot') format('eot');
+		url('/fonts/Lato/Lato-Regular.ttf') format('ttf'),
+		url('/fonts/Lato/Lato-Regular.eot') format('eot'),
+		url('/fonts/Lato/LatoLatin-Regular.ttf') format('ttf'),
+		url('/fonts/Lato/LatoLatin-Regular.eot') format('eot');
 }
 
 @font-face {
 	font-family: 'Korataki';
 	font-style: normal;
 	src: local('Korataki'),
-		url('/fonts/Korataki.otf') format('otf');
+		url('/fonts/Korataki/Korataki.otf') format('otf');
 }
 
 
@@ -21,7 +21,7 @@
 	font-family: 'Roboto';
 	font-style: normal;
 	src: local('Roboto'),
-		url('/fonts/Roboto-Regular.ttf') format('ttf');
+		url('/fonts/Roboto/Roboto-Regular.ttf') format('ttf');
 }
 
 @font-face {
