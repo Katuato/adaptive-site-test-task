@@ -143,4 +143,3 @@ document.addEventListener('DOMContentLoaded', function() {
         console.error('Product list container not found');
     }
 });
-

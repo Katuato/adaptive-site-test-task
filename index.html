@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> -->
     <link rel="preconnect" href="https://rsms.me/">
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <title>test-task</title>
@@ -22,6 +22,7 @@
         </div>
         <div class="header">
             <img src="assets/Logo.svg" alt="лого">
+            <img src="assets/Menu.svg" alt="меню" class="menu">
             <nav class="nav_header">
                 <a href="">КАТАЛОГ</a>
                 <a href="">О КОМПАНИИ</a>
@@ -49,42 +50,43 @@
         </section>
     </main>
     <footer>
-        <div class="footer-column-1">
-            <img src="assets/Logo-white.svg" alt="лого белое">
-            <div>
-                <span>Этот сайт защищен от спама службой reCAPTCHA Google.</span>
-                <span>Политика конфиденциальности/Условия предоставления услуг</span>
+            <div class="footer-column-1" id="footer-column-1">
+                <img src="assets/Logo-white.svg" alt="лого белое" class="footer-logo">
+                <div class="footer-text-policy">
+                    <span class="text_captcha">Этот сайт защищен от спама службой reCAPTCHA Google.</span>
+                    <span class="text_policy">Политика конфиденциальности/Условия предоставления услуг</span>
+                </div>
             </div>
-        </div>
-        <div class="footer-column-2">
-            <div class="address">
-                <span>Адрес</span>
-                <span>Текст, Текст, Текст</span>
+            <div class="footer-column-2" id="footer-column-2">
+                <div class="address">
+                    <span>Адрес</span>
+                    <span>Текст, Текст, Текст</span>
+                </div>
+                <div class="contacts">
+                    <span>Контакты</span>
+                    <span>Email: urban.dwelling@yandex.com</span>
+                    <span>Телефон: 8 (999) 999-99-99</span>
+                </div>
             </div>
-            <div class="contacts">
-                <span>Контакты</span>
-                <span>Email: urban.dwelling@yandex.com</span>
-                <span>Телефон: 8 (999) 999-99-99</span>
+            <div class="footer-column-3" id="footer-column-3">
+                <span class="column-3-title">Услуги</span>
+                <div class="column-3-links">
+                    <a href="" >Каталог</a>
+                    <a href="" >О компании</a>
+                    <a href="" >Контакты</a>
+                    <a href="" >Доставка и оплата</a>
+                    <a href="" >Гарантия и возврат</a>
+                </div>
             </div>
-        </div>
-        <div class="footer-column-3">
-            <span>Услуги</span>
-            <div>
-                <a href="" >Каталог</a>
-                <a href="" >О компании</a>
-                <a href="" >Контакты</a>
-                <a href="" >Доставка и оплата</a>
-                <a href="" >Гарантия и возврат</a>
+            <div class="footer-column-4" id="footer-column-4">
+                <div class="column-4-links">
+                    <a href="" >Публичная оферта</a>
+                    <a href="" >Политика персональных данных</a>
+                </div>
+                <img src="assets/Group 56.svg" alt="платежные системы" class="payment-methods">
             </div>
-        </div>
-        <div class="footer-column-4">
-            <div>
-                <a href="" >Публичная оферта</a>
-                <a href="" >Политика персональных данных</a>
-            </div>
-            <img src="assets/Group 56.svg" alt="платежные системы" class="payment-methods">
-        </div>
     </footer>
 </body>
+<script src="footer.js"></script> 
 <script src="products.js"></script> 
 </html>
