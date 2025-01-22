@@ -3,17 +3,17 @@
 	font-family: 'Lato';
 	font-style: normal;
 	src: local('Lato'),
-		url('fonts/Lato/Lato-Regular.ttf') format('ttf'),
-		url('fonts/Lato/Lato-Regular.eot') format('eot'),
-		url('fonts/Lato/LatoLatin-Regular.ttf') format('ttf'),
-		url('fonts/Lato/LatoLatin-Regular.eot') format('eot');
+		url('../fonts/Lato/Lato-Regular.ttf') format('ttf'),
+		url('../fonts/Lato/Lato-Regular.eot') format('eot'),
+		url('../fonts/Lato/LatoLatin-Regular.ttf') format('ttf'),
+		url('../fonts/Lato/LatoLatin-Regular.eot') format('eot');
 }
 
 @font-face {
 	font-family: 'Korataki';
 	font-style: normal;
 	src: local('Korataki'),
-		url('fonts/Korataki/Korataki.otf') format('otf');
+		url('../fonts/Korataki/Korataki.otf') format('otf');
 }
 
 
@@ -21,14 +21,14 @@
 	font-family: 'Roboto';
 	font-style: normal;
 	src: local('Roboto'),
-		url('fonts/Roboto/Roboto-Regular.ttf') format('ttf');
+		url('../fonts/Roboto/Roboto-Regular.ttf') format('ttf');
 }
 
 @font-face {
 	font-family: 'Inter';
 	font-style: normal;
 	src: local('Inter'),
-		url('fonts/Inter/Inter_18pt-Regular.ttf') format('ttf'),
-    url('fonts/Inter/Inter_24pt-Regular.ttf') format('ttf'),
-    url('fonts/Inter/Inter_28pt-Regular.ttf') format('ttf');
+		url('../fonts/Inter/Inter_18pt-Regular.ttf') format('ttf'),
+    url('../fonts/Inter/Inter_24pt-Regular.ttf') format('ttf'),
+    url('../fonts/Inter/Inter_28pt-Regular.ttf') format('ttf');
 }
