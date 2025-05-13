@@ -518,14 +518,14 @@ footer{
         font-optical-sizing: auto;
         font-weight: 500;
         font-style: normal;
-        max-width: 1600px;
+        max-width: 100%;
         margin: 0 auto;
         background-color: var(--primary-color);
       }
       
       /* header */
       header{
-          width: 1600px;
+        max-width: 100%;
           height: 120px;
           margin: 0 auto;
       }
@@ -533,7 +533,7 @@ footer{
       .bar_info{
           display: flex;
           flex-direction: row;
-          width: 1600px;
+          max-width: 100%;
           height: 40px;
           background-color: var(--background-block-light-black-color);
       }
@@ -544,7 +544,8 @@ footer{
           gap: 70px;
           height: 16px;
           width: 440px;
-          margin: 10px 180px 14px 980px;
+          margin: 10px 10% 14px auto;
+          width: fit-content;
       }
       
       .nav_bar_info a{
@@ -564,7 +565,7 @@ footer{
       
       .header > img{
           margin-top: 12px;
-          margin-left: 180px;
+          margin-left: 10%;
       }
 
       .menu{
@@ -576,7 +577,7 @@ footer{
           flex-direction: row;
           gap:100px;
           margin-top: 31px;
-          margin-left: 163.5px;
+          margin-left: 8%;
       }
       
       .nav_header a{
@@ -599,7 +600,7 @@ footer{
           width: 39px;
           height: 39px;
           margin-top: 21px;
-          margin-left: 180.5px;
+          margin-left: 5%;
           align-items: center;
           justify-content: center;
       }
@@ -678,7 +679,7 @@ footer{
       
       /* main */
       main{
-          width: 1600px;
+        width: 100%;
           height: 1278px;
           margin: 0 auto;
           position: relative;
@@ -687,7 +688,7 @@ footer{
       .results{
           display: flex;
           flex-direction: column;
-          margin: 60px 180px 66px;
+          margin: 60px 5% 66px;
           gap: 40px;
           position: absolute;
           row-gap: 30px;
@@ -706,8 +707,9 @@ footer{
           flex-wrap: wrap;
           gap: 30px;
           justify-content: center;
-          width: 1240px;
+          width: 90%;
           height: 1062px;
+          margin: 0 auto;
       }
       
       .product-card {
@@ -847,6 +849,7 @@ footer{
           display: flex;
           flex-direction: column;
           margin-left: 180px;
+          width: 100%;
       }
       
       .footer-logo{
@@ -1006,6 +1009,12 @@ footer{
           color: var(--text-color-grey);
           text-decoration-line: none;
           white-space: nowrap;
+      }
+      .footer-column-1,
+      .footer-column-2,
+      .footer-column-3,
+      .footer-column-4 {
+        margin-left: 5%;
       }
 
 }
